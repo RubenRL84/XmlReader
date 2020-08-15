@@ -7,13 +7,10 @@ file = sys.argv[1]
 if __name__ == "__main__":
 
     # Lê ficheiro xml
-
     tree = ElementTree.parse(file)
-
     # Cria ficheiro para escrita
     infoFile = open('playerInfo.csv', 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(infoFile, delimiter=';')
-
     # Preenche primeira linha
     col_names = ['Name', 'Team', 'Position', 'Number', 'Id', 'Got Stats', 'link']
     csvwriter.writerow(col_names)

@@ -1,5 +1,4 @@
 from xml.etree import ElementTree
-import os
 import csv
 import sys
 from scratch import getPosition
