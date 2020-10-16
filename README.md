@@ -1,0 +1,1 @@
+# XmlReader for a certain file with data of football players, and search if the player has data from the current season, and if it does, but doesnt got any team associated, google search for a link of player and add the link in the csv.
